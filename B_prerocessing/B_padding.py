@@ -33,3 +33,9 @@ def letter_padding_1024(raw_data_dir,
 * ImageOps.expand() < 의미 찾기
  
 """
+
+"""
+* raw_data_dir > 어떤 폴더인지 설명 적기
+* out_dir > "
+* img_name, img_path > "
+"""
