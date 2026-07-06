@@ -20,3 +20,16 @@ def letter_padding_1024(raw_data_dir,
         padding = (delta_w//2, delta_h//2, delta_w-(delta_w//2), delta_h-(delta_h//2))
         padded_img = ImageOps.expand(img, padding, fill='black')
         padded_img.save(os.path.join(output_dir, img_name))
+
+
+
+"""
+* PIL 머하는 놈인지 찾기
+* Image, ImageOps 머하는 놈인지, 역할 뭐가 다른지
+* os.listdir() < 어떤 메서드인지
+* os.path.join() < "
+* img.thumbnail() < 처음 보므로 검색
+* img.width, img.height < 신기하므로 찾아보기
+* ImageOps.expand() < 의미 찾기
+ 
+"""
